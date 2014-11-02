@@ -5,10 +5,10 @@ public class CameraClickToMove : MonoBehaviour {
 
 	public float duration = 200.0f;
 	//private bool toTarget = false;
-	private Vector3 target;
+	//private Vector3 target;
 	
 	void Start () {
-		target = transform.position;
+		//target = transform.position;
 	}
 //test1
 //	void Update () {

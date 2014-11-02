@@ -41,6 +41,7 @@
 'Assets/Scripts/Camera/CameraClickToMove.cs'
 'Assets/Scripts/Camera/CameraClickedToMove.cs'
 'Assets/Scripts/Camera/CameraFollow.cs'
+'Assets/Scripts/Camera/CameraGoToMouse.cs'
 'Assets/Scripts/Camera/CameraMove.cs'
 'Assets/Scripts/HoverText.cs'
 'Assets/Scripts/conversation.cs'
