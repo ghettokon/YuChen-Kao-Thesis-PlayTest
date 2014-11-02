@@ -2,18 +2,21 @@
 using System.Collections;
 
 public class CameraGoToMouse : MonoBehaviour {
-	
-	// Use this for initialization
-	void Start () {
-		
+
+	private Vector3 target;
+	public float speed = 20f;
+	public float zPos = 10f;
+
+	void Start(){
+		target = transform.position;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		Vector3 mousePos = Input.mousePosition;
-		Debug.Log (mousePos);
-		if (Input.GetMouseButtonDown (0)) {
-			transform.position = Camera.main.ScreenToWorldPoint (new Vector3 (mousePos.x, mousePos.y, 0f));
+
+	void Update(){
+		if(Input.GetMouseButtonDown (0)){
+			target = Camera.main.ScreenToWorldPoint (new Vector3 (Input.mousePosition.x, Input.mousePosition.y, zPos));
+			target.z = transform.position.z;
 		}
+		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 	}
+
 }

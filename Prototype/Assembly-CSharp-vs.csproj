@@ -46,13 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Camera\CameraClickToMove.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraClickedToMove.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraGoToMouse.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\HoverText.cs" />
-     <Compile Include="Assets\Scripts\conversation.cs" />
+     <Compile Include="Assets\Scripts\Tests\CameraClickToMove.cs" />
+     <Compile Include="Assets\Scripts\Tests\CameraClickedToMove.cs" />
+     <Compile Include="Assets\Scripts\Tests\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\Tests\conversation.cs" />
+     <Compile Include="Assets\Scripts\Texts\HoverText.cs" />
+     <Compile Include="Assets\Scripts\Texts\StartSceneVictimText.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

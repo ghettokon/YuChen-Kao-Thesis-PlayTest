@@ -10,7 +10,7 @@ public class CameraMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.position = new Vector3 (8f, 2f, -10.0f);
+		transform.position = new Vector3 (8f, 2f, 0.0f);
 	}
 	
 	// Update is called once per frame
