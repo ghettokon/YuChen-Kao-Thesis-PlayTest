@@ -7,6 +7,7 @@ public class CameraGoToMouse : MonoBehaviour {
 	public float speed = 20f;
 	public float zPos = 10f;
 
+
 	void Start(){
 		target = transform.position;
 	}
@@ -18,5 +19,4 @@ public class CameraGoToMouse : MonoBehaviour {
 		}
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 	}
-
 }

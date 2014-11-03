@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Tests\CameraClickToMove.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraClickedToMove.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\Tests\CameraMoveTest.cs" />
      <Compile Include="Assets\Scripts\Tests\conversation.cs" />
      <Compile Include="Assets\Scripts\Texts\HoverText.cs" />
      <Compile Include="Assets\Scripts\Texts\StartSceneVictimText.cs" />
