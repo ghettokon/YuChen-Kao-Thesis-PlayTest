@@ -19,9 +19,12 @@ public class CameraGoToMouse : MonoBehaviour {
 		}
 		transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-		Vector3 pos = transform.position;
-		pos.x = Mathf.Clamp (pos.x, -27.0f, 47.0f);
-		pos.y = Mathf.Clamp (pos.y, -8.0f, 8.0f);
-		transform.position = pos;
+		//Start Scene
+		if(transform.position.x>-30.0f && transform.position.x<65.0f && transform.position.y>-11.0f && transform.position.y<19.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, -27.0f, 47.0f);
+			pos.y = Mathf.Clamp (pos.y, -8.0f, 8.0f);
+			transform.position = pos;
+		}
 	}
 }

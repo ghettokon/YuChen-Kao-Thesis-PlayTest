@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera\CameraChangeScene.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraGoToDoubleClick.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraGoToMouse.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraClickToMove.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraClickedToMove.cs" />
