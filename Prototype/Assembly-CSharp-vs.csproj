@@ -48,15 +48,19 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\CameraChangeScene.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Camera\CameraGoToDoubleClick.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraGoToMouse.cs" />
+     <Compile Include="Assets\Scripts\Objects\MouseHover.cs" />
+     <Compile Include="Assets\Scripts\Objects\StartSceneVictimText.cs" />
+     <Compile Include="Assets\Scripts\SceneEffect\ParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraClickToMove.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraClickedToMove.cs" />
+     <Compile Include="Assets\Scripts\Tests\CameraGoToDoubleClick.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Tests\CameraMoveTest.cs" />
      <Compile Include="Assets\Scripts\Tests\conversation.cs" />
-     <Compile Include="Assets\Scripts\Texts\HoverText.cs" />
-     <Compile Include="Assets\Scripts\Texts\StartSceneVictimText.cs" />
+     <Compile Include="Assets\sprites\ParticleElementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\sprites\ParticleElementals\Scripts\TestParticles.cs" />
+     <None Include="Assets\sprites\ParticleElementals\!Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
