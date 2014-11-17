@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B1235EE4-71EE-C815-28F8-C3378E5ADB84}</ProjectGuid>
+	<ProjectGuid>{991D930B-35E1-0AA3-EC85-40639ADFE325}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,15 +49,15 @@
      <Compile Include="Assets\Scripts\Camera\CameraChangeScene.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraGoToMouse.cs" />
-     <Compile Include="Assets\Scripts\Objects\MouseHover.cs" />
+     <Compile Include="Assets\Scripts\Objects\MouseHoverSprite.cs" />
+     <Compile Include="Assets\Scripts\Objects\MouseHoverText.cs" />
+     <Compile Include="Assets\Scripts\Objects\StartSceneBruceText.cs" />
+     <Compile Include="Assets\Scripts\Objects\StartScenePhoneText.cs" />
      <Compile Include="Assets\Scripts\Objects\StartSceneVictimText.cs" />
+     <Compile Include="Assets\Scripts\Objects\sceneControl.cs" />
+     <Compile Include="Assets\Scripts\SceneEffect\AutoType.cs" />
      <Compile Include="Assets\Scripts\SceneEffect\ParticleSortingLayer.cs" />
-     <Compile Include="Assets\Scripts\Tests\CameraClickToMove.cs" />
-     <Compile Include="Assets\Scripts\Tests\CameraClickedToMove.cs" />
-     <Compile Include="Assets\Scripts\Tests\CameraGoToDoubleClick.cs" />
-     <Compile Include="Assets\Scripts\Tests\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\Tests\CameraMoveTest.cs" />
-     <Compile Include="Assets\Scripts\Tests\conversation.cs" />
+     <Compile Include="Assets\Scripts\SceneEffect\TextSortingLayer.cs" />
      <Compile Include="Assets\sprites\ParticleElementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\sprites\ParticleElementals\Scripts\TestParticles.cs" />
      <None Include="Assets\sprites\ParticleElementals\!Readme.txt" />
