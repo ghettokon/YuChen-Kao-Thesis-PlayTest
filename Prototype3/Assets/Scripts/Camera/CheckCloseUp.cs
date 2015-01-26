@@ -16,7 +16,7 @@ public class CheckCloseUp : MonoBehaviour {
 
 	void OnMouseEnter(){
 		closeup = true;
-		Debug.Log (closeup);
+		//Debug.Log (closeup);
 	}
 	void OnMouseExit(){
 		closeup = false;
