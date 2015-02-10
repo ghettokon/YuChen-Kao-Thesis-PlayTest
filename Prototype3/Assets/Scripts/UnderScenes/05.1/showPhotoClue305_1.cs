@@ -10,8 +10,10 @@ public class showPhotoClue305_1: MonoBehaviour {
 		turnOff = !turnOff;
 		if (turnOff) {
 			bookclue.GetComponent<SpriteRenderer>().enabled = false;
+			bookclue.GetComponent<BoxCollider2D> ().enabled = false;
 		} else {
 			bookclue.GetComponent<SpriteRenderer>().enabled = true;
+			bookclue.GetComponent<BoxCollider2D> ().enabled = true;
 		}
 	}
 }

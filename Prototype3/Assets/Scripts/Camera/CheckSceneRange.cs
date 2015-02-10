@@ -17,23 +17,22 @@ public class CheckSceneRange : MonoBehaviour {
 			pos.x = Mathf.Clamp (pos.x, -19.5f, 30.0f);
 			pos.y = Mathf.Clamp (pos.y, -3.0f, 3.8f);
 			transform.position = pos;
-			
 		}
 		
-		//Scene12.3
-		if(transform.position.x>94.0f && transform.position.x<183.0f && transform.position.y>-11.0f && transform.position.y<19.0f){
+		//Scene12.2
+		if(transform.position.x>230.0f && transform.position.x<300.0f && transform.position.y>-11.0f && transform.position.y<19.0f){
 			Vector3 pos = transform.position;
-			pos.x = Mathf.Clamp (pos.x, 120.0f, 170.0f);
-			pos.y = Mathf.Clamp (pos.y, -6.0f, 6.0f);
+			pos.x = Mathf.Clamp (pos.x, 237.0f, 291.0f);
+			pos.y = Mathf.Clamp (pos.y, -3.0f, 3.8f);
 			transform.position = pos;
 		}
 		
 		//Scene01
-		if(transform.position.x>-160.0f && transform.position.x<-80.0f && transform.position.y>-11.0f && transform.position.y<19.0f){
+		if(transform.position.x>-340.0f && transform.position.x<-230.0f && transform.position.y>-11.0f && transform.position.y<19.0f){
 			Vector3 pos = transform.position;
-			pos.x = Mathf.Clamp (pos.x, -145.0f, -95.0f);
-			pos.y = Mathf.Clamp (pos.y, -6.0f, 6.0f);
-			transform.position = pos;
+			pos.x = Mathf.Clamp (pos.x, -290.0f, -240.0f);
+			pos.y = Mathf.Clamp (pos.y, -3.0f, 3.8f);
+			transform.position = pos;;
 		}
 	
 	}
