@@ -18,6 +18,16 @@ public class changeDay12_2 : MonoBehaviour {
 	public GameObject Ques1_2;
 	public GameObject Ques2;
 	public GameObject Ques2_2;
+	public GameObject Ques2_3;
+	public GameObject text1Collider;
+	public GameObject text2Collider;
+	public GameObject text3Collider;
+	public GameObject text4Collider;
+	public GameObject text5Collider;
+	public GameObject text6Collider;
+	public GameObject text7Collider;
+	public GameObject infoCollider;
+	public GameObject coffinCollider;
 
 	void OnMouseUpAsButton(){
 		nightWatch.GetComponent<SpriteRenderer>().enabled = false;
@@ -39,6 +49,16 @@ public class changeDay12_2 : MonoBehaviour {
 		Ques2.GetComponent<MeshRenderer>().enabled = false;
 		Ques2_2.GetComponent<MeshRenderer>().enabled = false;
 		Ques2_2.GetComponent<BoxCollider2D> ().enabled = false;
+		Ques2_3.GetComponent<MeshRenderer> ().enabled = false;
+		text1Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text2Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text3Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text4Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text5Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text6Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		text7Collider.GetComponent<BoxCollider2D> ().enabled = true;
+		infoCollider.GetComponent<BoxCollider2D> ().enabled = false;
+		coffinCollider.GetComponent<BoxCollider2D> ().enabled = true;
 	}
 
 }

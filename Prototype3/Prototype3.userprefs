@@ -1,12 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/CheckSceneRange.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/09/openClose09.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/05.1/SwitchL05_1.cs" Line="22" Column="27" />
-      <File FileName="Assets/Scripts/UnderScenes/12.2/showQues.cs" Line="13" Column="54" />
-      <File FileName="Assets/Scripts/UnderScenes/05.1/showghostM05_1.cs" Line="24" Column="2" />
-      <File FileName="Assets/Scripts/UnderScenes/05.1/SwitchR05_1.cs" Line="13" Column="31" />
-      <File FileName="Assets/Scripts/Camera/CheckSceneRange.cs" Line="35" Column="29" />
+      <File FileName="Assets/Scripts/UnderScenes/09/openClose09.cs" Line="24" Column="56" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

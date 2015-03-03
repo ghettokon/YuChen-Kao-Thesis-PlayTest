@@ -21,6 +21,16 @@ public class changeNight12_2 : MonoBehaviour {
 	public GameObject text5;
 	public GameObject text6;
 	public GameObject text7;
+	public GameObject text1Collider;
+	public GameObject text2Collider;
+	public GameObject text3Collider;
+	public GameObject text4Collider;
+	public GameObject text5Collider;
+	public GameObject text6Collider;
+	public GameObject text7Collider;
+	public GameObject infoCollider;
+	public GameObject coffinCollider;
+
 
 	void OnMouseUpAsButton(){
 		nightWatch.GetComponent<SpriteRenderer>().enabled = true;
@@ -43,5 +53,14 @@ public class changeNight12_2 : MonoBehaviour {
 		text5.GetComponent<MeshRenderer> ().enabled = false;
 		text6.GetComponent<MeshRenderer> ().enabled = false;
 		text7.GetComponent<MeshRenderer> ().enabled = false;
+		text1Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text2Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text3Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text4Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text5Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text6Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		text7Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		infoCollider.GetComponent<BoxCollider2D> ().enabled = true;
+		coffinCollider.GetComponent<BoxCollider2D> ().enabled = false;
 	}
 }
