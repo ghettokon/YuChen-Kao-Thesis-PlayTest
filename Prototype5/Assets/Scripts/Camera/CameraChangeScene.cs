@@ -13,7 +13,7 @@ public class CameraChangeScene : MonoBehaviour {
 	private sceneControl sceneScript;
 
 	//Camera z position
-	public float zPos = 6f;
+	public float zPos = 16f;
 
 
 	void Start(){
@@ -23,6 +23,11 @@ public class CameraChangeScene : MonoBehaviour {
 
 	//no black transition between scenes--------------------------------------------------------------
 	void Update(){
+		//Reload
+		if(Input.GetKey (KeyCode.R)){
+			Application.LoadLevel(0);
+		}
+
 		//CLICKED AND CHANGE TO THE OTHER SCENE
 		if(Input.GetMouseButtonDown (0)){
 			if(sceneScript.accessableObjects.Length>0 ){
