@@ -31,7 +31,7 @@ public class CheckSceneRange : MonoBehaviour {
 		//Scene12.2
 		if(transform.position.x>-300.0f && transform.position.x<-270.0f && transform.position.y>-200.0f && transform.position.y<-190.0f){
 			Vector3 pos = transform.position;
-			pos.x = Mathf.Clamp (pos.x, -290.0f, -278.5f);
+			pos.x = Mathf.Clamp (pos.x, -290.0f, -277f);
 			pos.y = Mathf.Clamp (pos.y, -197f, -194f);
 			transform.position = pos;
 		}
@@ -97,6 +97,14 @@ public class CheckSceneRange : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.x = Mathf.Clamp (pos.x, 310.0f, 320.0f);
 			pos.y = Mathf.Clamp (pos.y, -795f, -789f);
+			transform.position = pos;
+		}
+
+		//Scene07.1 Outside When Back
+		if(transform.position.x>304.0f && transform.position.x<324.0f && transform.position.y>-847.0f && transform.position.y<-835.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 310.0f, 320.0f);
+			pos.y = Mathf.Clamp (pos.y, -845f, -838f);
 			transform.position = pos;
 		}
 

@@ -9,6 +9,7 @@ public class openBox07_1B : MonoBehaviour {
 
 	void OnMouseUpAsButton(){
 		box1.GetComponent<SpriteRenderer>().enabled = false;
+		box1.GetComponent<BoxCollider2D>().enabled = false;
 		box2.GetComponent<SpriteRenderer>().enabled = true;
 		key.GetComponent<SpriteRenderer>().enabled = true;
 		key.GetComponent<BoxCollider2D>().enabled = true;

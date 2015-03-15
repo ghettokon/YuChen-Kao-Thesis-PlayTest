@@ -8,11 +8,13 @@ public class openDoorlight07_1B : MonoBehaviour {
 	public Sprite off;
 	public GameObject doorlightL;
 	public GameObject dark1;
+	public GameObject clickSound;
 
 	public bool turnOn = false;
 
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
+		clickSound.audio.Play ();
 
 		if (turnOn) {
 			doorlight.GetComponent<SpriteRenderer>().sprite = on;

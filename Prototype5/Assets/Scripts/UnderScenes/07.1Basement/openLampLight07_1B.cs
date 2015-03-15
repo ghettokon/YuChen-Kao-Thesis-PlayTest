@@ -5,11 +5,13 @@ public class openLampLight07_1B : MonoBehaviour {
 
 	public GameObject lampLight;
 	public GameObject dark2;
+	public GameObject clickSound;
 	
 	public bool turnOn = false;
 	
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
+		clickSound.audio.Play ();
 		
 		if (turnOn) {
 			lampLight.GetComponent<SpriteRenderer>().enabled = true;
