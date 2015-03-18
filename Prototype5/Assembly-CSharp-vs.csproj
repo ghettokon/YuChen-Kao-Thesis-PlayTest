@@ -124,6 +124,8 @@
      <Compile Include="Assets\Scripts\UnderScenes\09\turnKey09.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\11\showGhost11.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\11\showPortal11.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\12.1\changeDay12_1.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\12.1\changeNight12_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\12.2\changeDay12_2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\12.2\changeNight12_2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\12.2\showDayWatch12_2.cs" />
