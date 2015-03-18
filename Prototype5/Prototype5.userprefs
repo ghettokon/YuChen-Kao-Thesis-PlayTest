@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/CheckSceneRange.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/06/showMaryText306.cs">
     <Files>
-      <File FileName="Assets/Scripts/Camera/CheckSceneRange.cs" Line="138" Column="45" />
+      <File FileName="Assets/Scripts/UnderScenes/03.1/showPortals03_1.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/UnderScenes/06/showMaryText106.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnderScenes/06/showJoelText206.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnderScenes/06/showMaryText306.cs" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
