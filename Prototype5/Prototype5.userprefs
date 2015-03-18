@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/CheckSceneRange.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/CameraChangeScene.cs">
     <Files>
-      <File FileName="Assets/Scripts/Camera/CheckSceneRange.cs" Line="107" Column="43" />
+      <File FileName="Assets/Scripts/Camera/CameraChangeScene.cs" Line="33" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
