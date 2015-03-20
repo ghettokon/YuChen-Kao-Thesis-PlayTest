@@ -116,6 +116,7 @@
      <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\showghostM07_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Outdoor\closeBasement07_1O.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Outdoor\openBasement07_1O.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\07.3Indoor\bruceText07_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\09\cdplayer09.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\09\control09.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\09\driving09.cs" />
