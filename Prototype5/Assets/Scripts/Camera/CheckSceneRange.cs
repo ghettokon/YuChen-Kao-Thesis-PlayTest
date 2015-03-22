@@ -180,6 +180,38 @@ public class CheckSceneRange : MonoBehaviour {
 			transform.position = pos;
 		}
 
+		//Scene08.3 Indoor
+		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>90.0f && transform.position.y<97.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 8.0f, 23.0f);
+			pos.y = Mathf.Clamp (pos.y, 92f, 95f);
+			transform.position = pos;
+		}
+
+		//Scene08.3 Outside
+		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>127.0f && transform.position.y<138.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 8.0f, 23.0f);
+			pos.y = Mathf.Clamp (pos.y, 129.5f, 135f);
+			transform.position = pos;
+		}
+
+		//Scene08.3 Outside -Back
+		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>165.0f && transform.position.y<175.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 8.0f, 23.0f);
+			pos.y = Mathf.Clamp (pos.y, 166.5f, 173f);
+			transform.position = pos;
+		}
+
+		//Scene08.3 Basement
+		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>203.0f && transform.position.y<222.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 8.0f, 20.0f);
+			pos.y = Mathf.Clamp (pos.y, 205.5f, 219.5f);
+			transform.position = pos;
+		}
+
 
 	
 	}
