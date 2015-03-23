@@ -188,6 +188,14 @@ public class CheckSceneRange : MonoBehaviour {
 			transform.position = pos;
 		}
 
+		//Scene08.3 Indoor -Back
+		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>67.0f && transform.position.y<73.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 8.0f, 23.0f);
+			pos.y = Mathf.Clamp (pos.y, 69f, 71f);
+			transform.position = pos;
+		}
+
 		//Scene08.3 Outside
 		if(transform.position.x>5.0f && transform.position.x<26.0f && transform.position.y>127.0f && transform.position.y<138.0f){
 			Vector3 pos = transform.position;
@@ -209,6 +217,70 @@ public class CheckSceneRange : MonoBehaviour {
 			Vector3 pos = transform.position;
 			pos.x = Mathf.Clamp (pos.x, 8.0f, 20.0f);
 			pos.y = Mathf.Clamp (pos.y, 205.5f, 219.5f);
+			transform.position = pos;
+		}
+
+		//Scene08.2 Indoor
+		if(transform.position.x>106.0f && transform.position.x<124.0f && transform.position.y>242.0f && transform.position.y<248.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 108.0f, 121.0f);
+			pos.y = Mathf.Clamp (pos.y, 245.5f, 247.5f);
+			transform.position = pos;
+		}
+
+		//Scene08.2 Outside
+		if(transform.position.x>106.0f && transform.position.x<124.0f && transform.position.y>272.0f && transform.position.y<281.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 108.0f, 121.0f);
+			pos.y = Mathf.Clamp (pos.y, 273.5f, 280f);
+			transform.position = pos;
+		}
+
+		//Scene08.2 Outside -Back
+		if(transform.position.x>106.0f && transform.position.x<124.0f && transform.position.y>305.0f && transform.position.y<314.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 108.0f, 121.0f);
+			pos.y = Mathf.Clamp (pos.y, 306f, 313f);
+			transform.position = pos;
+		}
+
+		//Scene08.2 Basement
+		if(transform.position.x>106.0f && transform.position.x<120.0f && transform.position.y>347.0f && transform.position.y<366.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 108.0f, 119.0f);
+			pos.y = Mathf.Clamp (pos.y, 349f, 364f);
+			transform.position = pos;
+		}
+
+		//Scene08.1 Indoor
+		if(transform.position.x>206.0f && transform.position.x<224.0f && transform.position.y>402.0f && transform.position.y<408.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 208.0f, 221.0f);
+			pos.y = Mathf.Clamp (pos.y, 405f, 407f);
+			transform.position = pos;
+		}
+
+		//Scene08.1 Outside
+		if(transform.position.x>206.0f && transform.position.x<224.0f && transform.position.y>432.0f && transform.position.y<442.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 208.0f, 221.0f);
+			pos.y = Mathf.Clamp (pos.y, 434f, 440f);
+			transform.position = pos;
+		}
+
+		//Scene08.1 Outside -Back
+		if(transform.position.x>206.0f && transform.position.x<224.0f && transform.position.y>470.0f && transform.position.y<479.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 208.0f, 221.0f);
+			pos.y = Mathf.Clamp (pos.y, 471.5f, 478f);
+			transform.position = pos;
+		}
+
+		//Scene08.1 Basement
+		if(transform.position.x>206.0f && transform.position.x<224.0f && transform.position.y>508.0f && transform.position.y<527.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, 208.0f, 219.0f);
+			pos.y = Mathf.Clamp (pos.y, 511f, 526f);
 			transform.position = pos;
 		}
 
