@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39ecefe330ad740df8b0517ce03cc6c5
+guid: 83de1ca7948654363b29c22e377fe67b
 TextureImporter:
   fileIDToRecycleName:
     21300000: 11-MaryG-anim_0
@@ -7,7 +7,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -27,7 +27,7 @@ TextureImporter:
   maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -48,20 +48,20 @@ TextureImporter:
     - name: 11-MaryG-anim_0
       rect:
         serializedVersion: 2
-        x: 225
-        y: 10
-        width: 140
-        height: 603
+        x: 0
+        y: 0
+        width: 139
+        height: 602
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: 11-MaryG-anim_1
       rect:
         serializedVersion: 2
-        x: 848
-        y: 10
-        width: 140
-        height: 603
+        x: 214
+        y: 0
+        width: 139
+        height: 602
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

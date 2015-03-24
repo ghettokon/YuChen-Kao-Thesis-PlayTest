@@ -1,18 +1,15 @@
 fileFormatVersion: 2
-guid: 9bffdd94209c648889612bcc6b6cc3f5
+guid: 7ff745cc0d36641ae9611783c9323378
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 03-Steph-anim_0
-    21300002: 03-Steph-anim_1
-    21300004: 03-Steph-anim_2
-    21300006: 03-Steph-anim_3
-    21300008: 01-Zoe-anim_0
-    21300010: 01-Zoe-anim_1
-    21300012: 01-Zoe-anim_2
+    21300000: 01-Zoe-anim_0
+    21300002: 01-Zoe-anim_1
+    21300004: 01-Zoe-anim_2
+    21300006: 01-Zoe-anim_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -32,7 +29,7 @@ TextureImporter:
   maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -74,6 +71,16 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 470
+        y: 0
+        width: 235
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 01-Zoe-anim_3
+      rect:
+        serializedVersion: 2
+        x: 705
         y: 0
         width: 235
         height: 235

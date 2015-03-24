@@ -13,6 +13,7 @@ public class switchDN01 : MonoBehaviour {
 	public GameObject piano1;
 	public GameObject piano2;
 	public GameObject Zoe;
+	public GameObject ZoeText;
 	public GameObject ghost;
 	public GameObject pianoSound;
 	public GameObject ghostSound;
@@ -36,6 +37,7 @@ public class switchDN01 : MonoBehaviour {
 			piano1.GetComponent<SpriteRenderer>().enabled = true;
 			piano2.GetComponent<SpriteRenderer>().enabled = false;
 			Zoe.GetComponent<SpriteRenderer>().enabled = true;
+			Zoe.GetComponent<BoxCollider2D> ().enabled = true;
 			ghost.GetComponent<SpriteRenderer>().enabled = false;
 			ghost.GetComponent<BoxCollider2D> ().enabled = false;
 			ghostText1.GetComponent<MeshRenderer>().enabled = false;
@@ -51,6 +53,8 @@ public class switchDN01 : MonoBehaviour {
 			piano1.GetComponent<SpriteRenderer>().enabled = false;
 			piano2.GetComponent<SpriteRenderer>().enabled = true;
 			Zoe.GetComponent<SpriteRenderer>().enabled = false;
+			Zoe.GetComponent<BoxCollider2D> ().enabled = false;
+			ZoeText.GetComponent<MeshRenderer>().enabled = false;
 			pianoSound.audio.Stop();
 			if (!GameObject.Find ("01-switchOn").GetComponent<switcher01> ().turnOn) {
 				ghostSound.audio.Play();
