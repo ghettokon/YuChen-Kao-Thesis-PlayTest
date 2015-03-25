@@ -89,6 +89,9 @@
      <Compile Include="Assets\Scripts\UnderScenes\02R\switchTV02R.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\03.1\showGhost03_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\03.1\showPortals03_1.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\04\RalphText104.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\04\RalphText204.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\04\ZoeText104.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\04\dayNight.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\05\StartSceneBruceText.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\05\StartSceneVictimText.cs" />
