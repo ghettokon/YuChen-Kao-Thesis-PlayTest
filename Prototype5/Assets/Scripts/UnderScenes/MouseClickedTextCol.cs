@@ -4,6 +4,7 @@ using System.Collections;
 public class MouseClickedTextCol : MonoBehaviour {
 
 	public GameObject text;
+	public GameObject textBG;
 	
 	public bool turnOff = true;
 	
@@ -12,9 +13,11 @@ public class MouseClickedTextCol : MonoBehaviour {
 		if (turnOff) {
 			text.GetComponent<MeshRenderer>().enabled = false;
 			text.GetComponent<BoxCollider2D>().enabled = false;
+			textBG.GetComponent<SpriteRenderer>().enabled = false;
 		} else {
 			text.GetComponent<MeshRenderer>().enabled = true;
 			text.GetComponent<BoxCollider2D>().enabled = true;
+			textBG.GetComponent<SpriteRenderer>().enabled = true;
 		}
 	}
 }

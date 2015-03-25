@@ -10,6 +10,7 @@ public class turnKey09 : MonoBehaviour {
 	public GameObject Mary1;
 	public GameObject Mary2;
 	public GameObject text2;
+	public GameObject textBg;
 
 	public bool turnOn;
 	
@@ -32,6 +33,7 @@ public class turnKey09 : MonoBehaviour {
 			text2.GetComponent<BoxCollider2D>().enabled = false;
 			text2.GetComponent<MeshRenderer>().enabled = false;
 			GameObject.Find ("09-Mary-collider1").GetComponent<MouseClickText> ().turnOff = false;
+			textBg.GetComponent<SpriteRenderer>().enabled = false;
 		}
 	}
 }

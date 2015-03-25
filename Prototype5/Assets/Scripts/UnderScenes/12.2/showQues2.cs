@@ -10,6 +10,9 @@ public class showQues2 : MonoBehaviour {
 	public GameObject Ques2_2;
 	public GameObject Ques2_3;
 	public GameObject Ques0Collider;
+	public GameObject textBG1;
+	public GameObject textBG2;
+	public GameObject textBG3;
 
 	void OnMouseUpAsButton(){
 		Ques0.GetComponent<MeshRenderer>().enabled = false;
@@ -22,6 +25,9 @@ public class showQues2 : MonoBehaviour {
 		Ques2_2.GetComponent<BoxCollider2D> ().enabled = true;
 		Ques2_3.GetComponent<MeshRenderer>().enabled = true;
 		Ques0Collider.GetComponent<BoxCollider2D> ().enabled = false;
+		textBG1.GetComponent<SpriteRenderer>().enabled = false;
+		textBG2.GetComponent<SpriteRenderer>().enabled = true;
+		textBG3.GetComponent<SpriteRenderer>().enabled = true;
 	}
 
 

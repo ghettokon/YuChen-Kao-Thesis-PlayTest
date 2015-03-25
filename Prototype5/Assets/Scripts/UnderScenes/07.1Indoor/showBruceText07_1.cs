@@ -5,6 +5,7 @@ public class showBruceText07_1 : MonoBehaviour {
 
 	public GameObject text1;
 	public GameObject text2;
+	public GameObject textBg;
 	
 	void OnMouseUpAsButton(){
 		text1.GetComponent<MeshRenderer>().enabled = false;
@@ -12,5 +13,6 @@ public class showBruceText07_1 : MonoBehaviour {
 		text2.GetComponent<MeshRenderer>().enabled = true;
 		GameObject.Find ("07.1-Zoe").GetComponent<MouseClickedTextCol> ().turnOff = true;
 		//text2.GetComponent<BoxCollider2D>().enabled = true;
+		textBg.GetComponent<SpriteRenderer>().enabled = false;
 	}
 }

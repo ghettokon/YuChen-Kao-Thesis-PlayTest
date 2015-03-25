@@ -29,6 +29,9 @@ public class changeDay12_1: MonoBehaviour {
 	public GameObject infoCollider;
 	public GameObject coffinCollider;
 	public GameObject coffinCollider2;
+	public GameObject textBg1;
+	public GameObject textBg2;
+	public GameObject textBg3;
 
 	void OnMouseUpAsButton(){
 		nightWatch.GetComponent<SpriteRenderer>().enabled = false;
@@ -61,6 +64,9 @@ public class changeDay12_1: MonoBehaviour {
 		infoCollider.GetComponent<BoxCollider2D> ().enabled = false;
 		coffinCollider.GetComponent<BoxCollider2D> ().enabled = true;
 		coffinCollider2.GetComponent<BoxCollider2D> ().enabled = true;
+		textBg1.GetComponent<SpriteRenderer>().enabled = false;
+		textBg2.GetComponent<SpriteRenderer>().enabled = false;
+		textBg3.GetComponent<SpriteRenderer>().enabled = false;
 	}
 
 }

@@ -4,6 +4,7 @@ using System.Collections;
 public class showMaryText02L : MonoBehaviour {
 
 	public GameObject text;
+	public GameObject textBg;
 
 	public bool turnOff = true;
 
@@ -12,9 +13,11 @@ public class showMaryText02L : MonoBehaviour {
 		if (turnOff) {
 			text.GetComponent<MeshRenderer>().enabled = false;
 			text.GetComponent<BoxCollider2D> ().enabled = false;
+			textBg.GetComponent<SpriteRenderer>().enabled = false;
 		} else {
 			text.GetComponent<MeshRenderer>().enabled = true;
 			text.GetComponent<BoxCollider2D> ().enabled = true;
+			textBg.GetComponent<SpriteRenderer>().enabled = true;
 		}
 	}
 }

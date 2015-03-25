@@ -7,6 +7,8 @@ public class showRalphText02L : MonoBehaviour {
 	public GameObject Rtext2;
 	public GameObject RCollider;
 	public GameObject Mtext;
+	public GameObject textBg1;
+	public GameObject textBg2;
 	//public GameObject MCollider;
 
 	void OnMouseUpAsButton(){
@@ -20,5 +22,7 @@ public class showRalphText02L : MonoBehaviour {
 		GameObject.Find ("02L-Mary-collider").GetComponent<showMaryText02L> ().turnOff = true;
 		GameObject.Find ("02L-Ralph-collider").GetComponent<ralphTextControl02L> ().turnOn = true;
 		//MCollider.GetComponent<BoxCollider2D> ().enabled = false;
+		textBg1.GetComponent<SpriteRenderer>().enabled = false;
+		textBg2.GetComponent<SpriteRenderer>().enabled = true;
 	}
 }
