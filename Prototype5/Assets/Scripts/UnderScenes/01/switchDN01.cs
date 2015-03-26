@@ -19,6 +19,7 @@ public class switchDN01 : MonoBehaviour {
 	public GameObject ghostSound;
 	public GameObject ghostText1;
 	public GameObject ghostText2;
+	public GameObject ghostTextBg;
 
 	
 	public bool IsDay = true;
@@ -42,6 +43,7 @@ public class switchDN01 : MonoBehaviour {
 			ghost.GetComponent<BoxCollider2D> ().enabled = false;
 			ghostText1.GetComponent<MeshRenderer>().enabled = false;
 			ghostText2.GetComponent<MeshRenderer>().enabled = false;
+			ghostTextBg.GetComponent<SpriteRenderer> ().enabled = false;
 			pianoSound.audio.Play();
 			ghostSound.audio.Stop();
 		} else {

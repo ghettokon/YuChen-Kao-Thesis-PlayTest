@@ -7,8 +7,8 @@ public class showghostM07_1 : MonoBehaviour {
 	public GameObject ghostMtext;
 	
 	void Update () {
-		if (!GameObject.Find ("07.1-switchR").GetComponent<SwitchR05> ().turnOn) {
-			if (!GameObject.Find ("07.1-switchL").GetComponent<SwitchL05> ().turnOff) {
+		if (!GameObject.Find ("07.1-switchR").GetComponent<SwitchR07> ().turnOn) {
+			if (!GameObject.Find ("07.1-switchL").GetComponent<SwitchL07> ().turnOff) {
 				ghostM.GetComponent<SpriteRenderer> ().enabled = true;
 				ghostM.GetComponent<BoxCollider2D> ().enabled = true;
 			}

@@ -110,6 +110,8 @@
      <Compile Include="Assets\Scripts\UnderScenes\07.1Basement\openBox07_1B.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Basement\openDoorlight07_1B.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Basement\openLampLight07_1B.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\SwitchL07.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\SwitchR07.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\ZoeText07_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\bruceText07_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.1Indoor\doorClose07_1.cs" />
