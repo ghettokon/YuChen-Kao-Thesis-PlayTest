@@ -152,7 +152,7 @@ public class CheckSceneRange : MonoBehaviour {
 		if(transform.position.x>205.0f && transform.position.x<225.0f && transform.position.y>-743.0f && transform.position.y<-735.0f){
 			Vector3 pos = transform.position;
 			pos.x = Mathf.Clamp (pos.x, 208.0f, 221.0f);
-			pos.y = Mathf.Clamp (pos.y, -742f, -738f);
+			pos.y = Mathf.Clamp (pos.y, -740f, -738f);
 			transform.position = pos;
 		}
 
