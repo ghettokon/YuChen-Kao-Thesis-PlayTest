@@ -145,6 +145,7 @@
      <Compile Include="Assets\Scripts\UnderScenes\12.2\showQues.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\12.2\showQues2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickText.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\MouseClickTextItween.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedSound.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedTextCol.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedTextCol2.cs" />

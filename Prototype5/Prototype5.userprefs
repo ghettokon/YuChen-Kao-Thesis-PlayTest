@@ -1,17 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/12.2/showQues.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/05/SwitchR05.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/11/showPortal11.cs" Line="20" Column="56" />
-      <File FileName="Assets/Scripts/UnderScenes/07.1Indoor/showBruceText07_1.cs" Line="16" Column="57" />
-      <File FileName="Assets/Scripts/UnderScenes/03.1/showGhost03_1.cs" Line="20" Column="3" />
-      <File FileName="Assets/Scripts/UnderScenes/03.1/showPortals03_1.cs" Line="26" Column="61" />
-      <File FileName="Assets/Scripts/UnderScenes/06/showMaryText106.cs" Line="22" Column="10" />
-      <File FileName="Assets/Scripts/UnderScenes/06/showJoelText206.cs" Line="20" Column="56" />
-      <File FileName="Assets/Scripts/UnderScenes/06/showMaryText306.cs" Line="20" Column="56" />
-      <File FileName="Assets/Scripts/UnderScenes/06/showJoelText306.cs" Line="20" Column="56" />
-      <File FileName="Assets/Scripts/UnderScenes/12.1/changeDay12_1.cs" Line="69" Column="10" />
-      <File FileName="Assets/Scripts/UnderScenes/12.2/showQues.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/UnderScenes/05/SwitchR05.cs" Line="16" Column="32" />
+      <File FileName="Assets/Scripts/UnderScenes/05/SwitchL05.cs" Line="35" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

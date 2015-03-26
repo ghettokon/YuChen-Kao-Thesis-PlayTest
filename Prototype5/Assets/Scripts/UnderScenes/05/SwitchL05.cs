@@ -16,6 +16,7 @@ public class SwitchL05 : MonoBehaviour {
 	public GameObject BGhostText;
 	public GameObject MGhost;
 	public GameObject MGhostText;
+	public GameObject MGhostTextBg;
 
 	void OnMouseUpAsButton(){
 		turnOff = !turnOff;
@@ -31,6 +32,7 @@ public class SwitchL05 : MonoBehaviour {
 			MGhost.GetComponent<BoxCollider2D> ().enabled = false;
 			MGhostText.GetComponent<MeshRenderer>().enabled = false;
 			MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
+			MGhostTextBg.GetComponent<SpriteRenderer>().enabled = false;
 		} else {
 			filterDark.GetComponent<SpriteRenderer>().enabled = true;
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOff;

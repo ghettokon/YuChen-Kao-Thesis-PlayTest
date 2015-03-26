@@ -13,6 +13,7 @@ public class SwitchR05 : MonoBehaviour {
 	public GameObject clickSound;
 	public GameObject MGhost;
 	public GameObject MGhostText;
+	public GameObject MGhostTextBg;
 
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
@@ -24,6 +25,7 @@ public class SwitchR05 : MonoBehaviour {
 			MGhost.GetComponent<BoxCollider2D> ().enabled = false;
 			MGhostText.GetComponent<MeshRenderer>().enabled = false;
 			MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
+			MGhostTextBg.GetComponent<SpriteRenderer>().enabled = false;
 		} else {
 			doorlight.GetComponent<SpriteRenderer>().enabled = false;
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOff;
