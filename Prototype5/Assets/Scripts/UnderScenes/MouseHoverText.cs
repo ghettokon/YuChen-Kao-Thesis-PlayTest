@@ -6,7 +6,7 @@ public class MouseHoverText : MonoBehaviour {
 	//what to showup when hover
 	public GameObject show;
 
-	public float time;
+	//public float time;
 
 	//Set up the cursor shape when hover the clickable object
 	//public Texture2D cursorTexture;

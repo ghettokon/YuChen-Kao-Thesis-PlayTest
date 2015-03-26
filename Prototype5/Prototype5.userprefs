@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/05/SwitchR05.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/textFadeIn.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/05/SwitchR05.cs" Line="16" Column="32" />
-      <File FileName="Assets/Scripts/UnderScenes/05/SwitchL05.cs" Line="35" Column="4" />
+      <File FileName="Assets/Scripts/UnderScenes/MouseClickTextItween.cs" Line="15" Column="53" />
+      <File FileName="Assets/Scripts/UnderScenes/textFadeOut.cs" Line="7" Column="65" />
+      <File FileName="Assets/Scripts/UnderScenes/textFadeIn.cs" Line="7" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

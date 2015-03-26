@@ -13,7 +13,6 @@ public class MouseClickTextItween : MonoBehaviour {
 			text.GetComponent<MeshRenderer>().enabled = false;
 		} else {
 			text.GetComponent<MeshRenderer>().enabled = true;
-			iTween.FadeFrom (text, iTween.Hash ("alpha", 255, "time", 1f));
 		}
 	}
 }
