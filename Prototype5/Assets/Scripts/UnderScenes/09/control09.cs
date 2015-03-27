@@ -11,12 +11,13 @@ public class control09 : MonoBehaviour {
 	public GameObject Mary2;
 	public GameObject text2;
 	public GameObject textBg;
+	public GameObject pushSound;
 	
 	public bool turnOn;
 	
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
-		
+		pushSound.audio.Play ();
 		if (turnOn) {
 			forward.GetComponent<SpriteRenderer>().enabled = true;
 			back.GetComponent<SpriteRenderer>().enabled = false;

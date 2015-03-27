@@ -11,13 +11,16 @@ public class turnKey09 : MonoBehaviour {
 	public GameObject Mary2;
 	public GameObject text2;
 	public GameObject textBg;
+	public GameObject turnKeySound;
 
 	public bool turnOn;
 	
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
 
+
 		if (turnOn) {
+			turnKeySound.audio.Play ();
 			keyOn.GetComponent<SpriteRenderer>().enabled = true;
 			keyOff.GetComponent<SpriteRenderer>().enabled = false;
 			if(GameObject.Find ("09-carForward-collider").GetComponent<control09> ().turnOn){

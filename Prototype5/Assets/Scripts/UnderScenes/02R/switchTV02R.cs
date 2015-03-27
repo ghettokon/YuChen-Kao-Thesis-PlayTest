@@ -8,6 +8,7 @@ public class switchTV02R : MonoBehaviour {
 	public Sprite tvSwitchL;
 	public Sprite tvSwitchR;
 	public GameObject tvSound;
+	public GameObject turnSound;
 
 	//control showup
 	public GameObject message;
@@ -16,6 +17,7 @@ public class switchTV02R : MonoBehaviour {
 
 	void OnMouseUpAsButton(){
 		open = !open;
+		turnSound.audio.Play ();
 
 		if (open) {
 			switcher.GetComponent<SpriteRenderer>().sprite = tvSwitchR;

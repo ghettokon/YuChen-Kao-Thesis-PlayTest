@@ -6,12 +6,13 @@ public class openClose09 : MonoBehaviour {
 	public GameObject close;
 	public GameObject open;
 	public GameObject flyerS;
+	public GameObject openSound;
 	
 	public bool turnOn;
 	
 	void OnMouseUpAsButton(){
 		turnOn = !turnOn;
-		
+		openSound.audio.Play ();
 		if (turnOn) {
 			open.GetComponent<SpriteRenderer>().enabled = true;
 			close.GetComponent<SpriteRenderer>().enabled = false;
