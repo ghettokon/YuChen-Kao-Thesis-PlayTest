@@ -12,6 +12,14 @@ public class CheckSceneRange : MonoBehaviour {
 	void Update () {
 		//DEFINE THE RANGE OF EACH SCENE
 
+		//Scene Title
+		if(transform.position.x>-746.0f && transform.position.x<-741.0f && transform.position.y>16.0f && transform.position.y<23.0f){
+			Vector3 pos = transform.position;
+			pos.x = Mathf.Clamp (pos.x, -744f, -743.5f);
+			pos.y = Mathf.Clamp (pos.y, 18f, 19f);
+			transform.position = pos;
+		}
+
 		//Scene00
 		if(transform.position.x>-770.0f && transform.position.x<-730.0f && transform.position.y>-4.0f && transform.position.y<9.0f){
 			Vector3 pos = transform.position;
