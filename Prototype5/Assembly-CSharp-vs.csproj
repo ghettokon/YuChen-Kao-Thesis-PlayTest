@@ -127,6 +127,7 @@
      <Compile Include="Assets\Scripts\UnderScenes\08.2\showBghost08_2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.3\SwitchL08_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.3\SwitchR08_3.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\08.3\end08_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.3\openGift08_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.3\showRalph08_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\09\cdplayer09.cs" />

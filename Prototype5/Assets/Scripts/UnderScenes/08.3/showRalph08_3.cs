@@ -6,7 +6,7 @@ public class showRalph08_3 : MonoBehaviour {
 	public GameObject ghostRalph;
 	public GameObject RDark;
 	public GameObject RText;
-	public GameObject RTextBg;
+	public GameObject EndText;
 	
 	public bool turnOn = false;
 
@@ -26,7 +26,8 @@ public class showRalph08_3 : MonoBehaviour {
 			RDark.GetComponent<SpriteRenderer>().enabled = false;
 			RText.GetComponent<MeshRenderer>().enabled = false;
 			RText.GetComponent<BoxCollider2D>().enabled = false;
-			RTextBg.GetComponent<SpriteRenderer>().enabled = false;
+			EndText.GetComponent<MeshRenderer>().enabled = false;
+			EndText.GetComponent<BoxCollider2D>().enabled = false;
 		}
 	}
 }

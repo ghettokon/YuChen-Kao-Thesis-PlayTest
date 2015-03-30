@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MouseClickedTextCol : MonoBehaviour {
+public class end08_3 : MonoBehaviour {
 
 	public GameObject text;
-	public GameObject textBg;
+	public GameObject EndText;
 	
 	public bool turnOff = true;
 	
@@ -13,12 +13,14 @@ public class MouseClickedTextCol : MonoBehaviour {
 		if (turnOff) {
 			text.GetComponent<MeshRenderer>().enabled = false;
 			text.GetComponent<BoxCollider2D>().enabled = false;
-			textBg.GetComponent<SpriteRenderer>().enabled = false;
-
+			EndText.GetComponent<MeshRenderer>().enabled = false;
+			EndText.GetComponent<BoxCollider2D>().enabled = false;
+			
 		} else {
 			text.GetComponent<MeshRenderer>().enabled = true;
 			text.GetComponent<BoxCollider2D>().enabled = true;
-			textBg.GetComponent<SpriteRenderer>().enabled = true;
+			EndText.GetComponent<MeshRenderer>().enabled = true;
+			EndText.GetComponent<BoxCollider2D>().enabled = true;
 		}
 	}
 }

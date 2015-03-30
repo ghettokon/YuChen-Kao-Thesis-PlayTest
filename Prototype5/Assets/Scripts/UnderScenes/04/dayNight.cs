@@ -45,6 +45,11 @@ public class dayNight : MonoBehaviour {
 	public GameObject ZoeT2_1;
 	public GameObject ZoeT2_2;
 
+	//Night dialogues' text bg
+	public GameObject RalphTBg1;
+	public GameObject ZoeTBg1;
+	public GameObject RalphTBg2;
+	public GameObject ZoeTBg2;
 
 
 	public bool isDay = true;
@@ -97,6 +102,12 @@ public class dayNight : MonoBehaviour {
 			ZoeT2_2.GetComponent<BoxCollider2D>().enabled = false;
 			ZoeT2_2.GetComponent<MeshRenderer>().enabled = false;
 			GameObject.Find ("04-RalphN-collider1").GetComponent<MouseClickedTextCol> ().turnOff = true;
+
+			//Night texts' bg
+			RalphTBg1.GetComponent<SpriteRenderer>().enabled = false;
+			ZoeTBg1.GetComponent<SpriteRenderer>().enabled = false;
+			RalphTBg2.GetComponent<SpriteRenderer>().enabled = false;
+			ZoeTBg2.GetComponent<SpriteRenderer>().enabled = false;
 
 		} else {
 			clock.GetComponent<SpriteRenderer> ().sprite = clockN;

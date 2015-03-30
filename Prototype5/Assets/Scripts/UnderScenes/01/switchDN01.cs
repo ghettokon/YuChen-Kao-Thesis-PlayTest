@@ -20,6 +20,14 @@ public class switchDN01 : MonoBehaviour {
 	public GameObject ghostText1;
 	public GameObject ghostText2;
 	public GameObject ghostTextBg;
+	public GameObject MaryText1;
+	public GameObject MaryText1Bg;
+	public GameObject MaryText2;
+	public GameObject MaryText2Bg;
+	public GameObject BruceText1;
+	public GameObject BruceText1Bg;
+
+	public GameObject MaryCollider1;
 
 	
 	public bool IsDay = true;
@@ -46,6 +54,9 @@ public class switchDN01 : MonoBehaviour {
 			ghostTextBg.GetComponent<SpriteRenderer> ().enabled = false;
 			pianoSound.audio.Play();
 			ghostSound.audio.Stop();
+
+			MaryCollider1.GetComponent<BoxCollider2D> ().enabled = true;
+			GameObject.Find ("01-Mary-collider1").GetComponent<showMaryText101> ().turnOff = true;
 		} else {
 			outspace.GetComponent<SpriteRenderer>().sprite = night;
 			filterN.GetComponent<SpriteRenderer>().enabled = true;
@@ -61,6 +72,12 @@ public class switchDN01 : MonoBehaviour {
 			if (!GameObject.Find ("01-switchOn").GetComponent<switcher01> ().turnOn) {
 				ghostSound.audio.Play();
 			}
+			MaryText1.GetComponent<MeshRenderer>().enabled = false;
+			MaryText1Bg.GetComponent<SpriteRenderer>().enabled = false;
+			MaryText2.GetComponent<MeshRenderer>().enabled = false;
+			MaryText2Bg.GetComponent<SpriteRenderer>().enabled = false;
+			BruceText1.GetComponent<MeshRenderer>().enabled = false;
+			BruceText1Bg.GetComponent<SpriteRenderer>().enabled = false;
 		}
 	}
 }
