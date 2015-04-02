@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/CheckSceneRange.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/MouseClickTextItween.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/MouseClickedTextCol.cs" Line="21" Column="56" />
-      <File FileName="Assets/Scripts/UnderScenes/08.3/end08_3.cs" Line="25" Column="3" />
-      <File FileName="Assets/Scripts/Camera/CheckSceneRange.cs" Line="19" Column="39" />
+      <File FileName="Assets/Scripts/UnderScenes/MouseClickTextItween.cs" Line="36" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

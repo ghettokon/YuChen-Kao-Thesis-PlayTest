@@ -159,8 +159,6 @@
      <Compile Include="Assets\Scripts\UnderScenes\musicPlayerClick.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\openObject.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\playAgain.cs" />
-     <Compile Include="Assets\Scripts\UnderScenes\textFadeIn.cs" />
-     <Compile Include="Assets\Scripts\UnderScenes\textFadeOut.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\TestParticles.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
