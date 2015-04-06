@@ -65,17 +65,17 @@ public class dayNight : MonoBehaviour {
 			fDayLeft.GetComponent<SpriteRenderer>().enabled = true;
 			RalphD.GetComponent<SpriteRenderer>().enabled = true;
 			RalphD.GetComponent<BoxCollider2D>().enabled = true;
-			GameObject.Find ("04-RalphDay").GetComponent<MouseClickText> ().turnOff = true;
+			GameObject.Find ("04-RalphDay").GetComponent<MouseClickTextFade> ().turnOff = true;
 
 			//Day dialogues
 			peopleA.GetComponent<BoxCollider2D>().enabled = true;
 			peopleB.GetComponent<BoxCollider2D>().enabled = true;
 			peopleC.GetComponent<BoxCollider2D>().enabled = true;
 			peopleD.GetComponent<BoxCollider2D>().enabled = true;
-			GameObject.Find ("04-dayPeopleA-collider").GetComponent<MouseClickText> ().turnOff = true;
-			GameObject.Find ("04-dayPeopleB-collider").GetComponent<MouseClickText> ().turnOff = true;
-			GameObject.Find ("04-dayPeopleC-collider").GetComponent<MouseClickText> ().turnOff = true;
-			GameObject.Find ("04-dayPeopleD-collider").GetComponent<MouseClickText> ().turnOff = true;
+			GameObject.Find ("04-dayPeopleA-collider").GetComponent<MouseClickTextFade> ().turnOff = true;
+			GameObject.Find ("04-dayPeopleB-collider").GetComponent<MouseClickTextFade> ().turnOff = true;
+			GameObject.Find ("04-dayPeopleC-collider").GetComponent<MouseClickTextFade> ().turnOff = true;
+			GameObject.Find ("04-dayPeopleD-collider").GetComponent<MouseClickTextFade> ().turnOff = true;
 
 			//Night
 			filterNight1.GetComponent<SpriteRenderer>().enabled = false;

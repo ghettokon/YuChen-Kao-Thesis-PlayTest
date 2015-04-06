@@ -22,8 +22,8 @@ public class SwitchR07 : MonoBehaviour {
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOn;
 			MGhost.GetComponent<SpriteRenderer>().enabled = false;
 			MGhost.GetComponent<BoxCollider2D> ().enabled = false;
-			MGhostText.GetComponent<MeshRenderer>().enabled = false;
-			MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
+			//MGhostText.GetComponent<MeshRenderer>().enabled = false;
+			//MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
 		} else {
 			doorlight.GetComponent<SpriteRenderer>().enabled = false;
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOff;

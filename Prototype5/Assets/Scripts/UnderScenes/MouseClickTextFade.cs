@@ -1,32 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MouseClickTextItween : MonoBehaviour {
+public class MouseClickTextFade : MonoBehaviour {
 
 	public GameObject text;
 	
 	public bool turnOff = true;
 
-	private float alpha=0;
-
-
-//	void OnMouseUpAsButton(){
-//		turnOff = !turnOff;
-//		if (turnOff) {
-//			text.GetComponent<MeshRenderer>().enabled = false;
-//		} else {
-//			//iTween.FadeFrom (gameObject, iTween.Hash ("alpha", 255, "time", 1f)); 
-//
-//			text.GetComponent<MeshRenderer>().enabled = true;
-//		}
-//	}
+	private float alpha = 0;
 
 	private void Start(){
 		text.GetComponent<MeshRenderer>().enabled = true;
 
 	}
-
-
+	
 	void OnMouseUpAsButton(){
 		if(turnOff==true){
 			turnOff=false;

@@ -16,8 +16,8 @@ public class showghostM07_1 : MonoBehaviour {
 		else {
 			ghostM.GetComponent<SpriteRenderer> ().enabled = false;
 			ghostM.GetComponent<BoxCollider2D> ().enabled = false;
-			ghostMtext.GetComponent<MeshRenderer>().enabled = false;
-			ghostMtext.GetComponent<BoxCollider2D> ().enabled = false;
+			//ghostMtext.GetComponent<MeshRenderer>().enabled = false;
+			//ghostMtext.GetComponent<BoxCollider2D> ().enabled = false;
 		}
 	}
 }

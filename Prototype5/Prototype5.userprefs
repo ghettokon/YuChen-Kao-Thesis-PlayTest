@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/MouseClickTextItween.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/TextHoverFadeIn.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/MouseClickTextItween.cs" Line="36" Column="16" />
+      <File FileName="Assets/Scripts/UnderScenes/TextHoverFadeIn.cs" Line="20" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

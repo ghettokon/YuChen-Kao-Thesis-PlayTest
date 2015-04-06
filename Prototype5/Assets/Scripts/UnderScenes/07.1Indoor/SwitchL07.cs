@@ -29,8 +29,8 @@ public class SwitchL07 : MonoBehaviour {
 			BGhostText.GetComponent<MeshRenderer>().enabled = false;
 			MGhost.GetComponent<SpriteRenderer>().enabled = false;
 			MGhost.GetComponent<BoxCollider2D> ().enabled = false;
-			MGhostText.GetComponent<MeshRenderer>().enabled = false;
-			MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
+			//MGhostText.GetComponent<MeshRenderer>().enabled = false;
+			//MGhostText.GetComponent<BoxCollider2D> ().enabled = false;
 		} else {
 			filterDark.GetComponent<SpriteRenderer>().enabled = true;
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOff;

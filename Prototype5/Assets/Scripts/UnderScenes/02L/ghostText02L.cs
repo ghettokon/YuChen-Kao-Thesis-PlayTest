@@ -9,7 +9,7 @@ public class ghostText02L : MonoBehaviour {
 	void Update () {
 		string textBuffer = dialogue;
 		if (dialogue == "This was the day,") {
-			textBuffer +="\nbut there's nothing I can change.";
+			textBuffer +="\nbut there was noyhing I could do...";
 		}
 		GetComponent<TextMesh>().text = textBuffer;
 	}

@@ -147,7 +147,7 @@
      <Compile Include="Assets\Scripts\UnderScenes\12.2\showQues.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\12.2\showQues2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickText.cs" />
-     <Compile Include="Assets\Scripts\UnderScenes\MouseClickTextItween.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\MouseClickTextFade.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedSound.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedTextCol.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseClickedTextCol2.cs" />
@@ -155,10 +155,13 @@
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverSprite.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverText.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverTextColor.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\TextFadeIn.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\TextHoverFadeIn.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\closeObject.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\musicPlayerClick.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\openObject.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\playAgain.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\spriteClickFadeIn.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\TestParticles.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
