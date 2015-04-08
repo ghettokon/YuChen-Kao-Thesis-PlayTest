@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TextHoverFadeIn : MonoBehaviour {
+public class TextHoverFade : MonoBehaviour {
 
 
 	public GameObject text;
@@ -24,8 +24,10 @@ public class TextHoverFadeIn : MonoBehaviour {
 	}
 
 	void OnMouseExit(){
-		text.GetComponent<MeshRenderer>().enabled = false;
-		//turnOff==true;
+		if (alpha <= 0) {
+			text.GetComponent<MeshRenderer> ().enabled = false;
+		}
+		turnOff = true;
 	}
 	
 	void Update(){

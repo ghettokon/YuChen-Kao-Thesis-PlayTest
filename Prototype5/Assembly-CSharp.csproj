@@ -156,13 +156,14 @@
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverSprite.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverText.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\MouseHoverTextColor.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\SpriteFadeIn.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\TextFadeIn.cs" />
-     <Compile Include="Assets\Scripts\UnderScenes\TextHoverFadeIn.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\TextHoverFade.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\closeObject.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\musicPlayerClick.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\openObject.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\playAgain.cs" />
-     <Compile Include="Assets\Scripts\UnderScenes\spriteClickFadeIn.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\spriteClickFade.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Sprites\ParticleElementals\Scripts\TestParticles.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />

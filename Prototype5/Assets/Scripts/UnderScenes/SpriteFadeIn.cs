@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TextFadeIn : MonoBehaviour {
+public class SpriteFadeIn : MonoBehaviour {
 
-	public GameObject text;
+	public GameObject spriteObject;
 	
 	public bool turnOff = true;
 	
 	private float alpha = 0;
 	
 	private void Start(){
-		text.GetComponent<MeshRenderer>().enabled = true;
+		spriteObject.GetComponent<SpriteRenderer>().enabled = true;
 		
 	}
 	
@@ -18,16 +18,16 @@ public class TextFadeIn : MonoBehaviour {
 		if(turnOff==true){
 			turnOff=false;
 		}
-
+		
 		if (!turnOff) {
 			alpha = 0;
-			text.GetComponent<MeshRenderer>().enabled = true;
+			spriteObject.GetComponent<SpriteRenderer>().enabled = true;
 		}
 	}
 	
 	void Update(){
 		//Debug.Log (text.GetComponent<TextMesh>().color.a);
-		text.GetComponent<TextMesh>().color = new Color (1,1,1,alpha);
+		spriteObject.GetComponent<SpriteRenderer>().color = new Color (1,1,1,alpha);
 		
 		
 		if (turnOff == false) {
@@ -35,9 +35,6 @@ public class TextFadeIn : MonoBehaviour {
 				alpha += 0.03f;
 			}
 		} 
-
+		
 	}
-	
-
-
 }

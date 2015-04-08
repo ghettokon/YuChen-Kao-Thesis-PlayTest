@@ -33,7 +33,7 @@ public class control09 : MonoBehaviour {
 			Mary2.GetComponent<BoxCollider2D>().enabled = false;
 			text2.GetComponent<BoxCollider2D>().enabled = false;
 			text2.GetComponent<MeshRenderer>().enabled = false;
-			GameObject.Find ("09-Mary-collider1").GetComponent<MouseClickText> ().turnOff = false;
+			GameObject.Find ("09-Mary-collider1").GetComponent<MouseClickTextFade> ().turnOff = false;
 			textBg.GetComponent<SpriteRenderer>().enabled = false;
 		}
 	}
