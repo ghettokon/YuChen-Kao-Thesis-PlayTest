@@ -123,6 +123,7 @@
      <Compile Include="Assets\Scripts\UnderScenes\07.1Outdoor\openBasement07_1O.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.3Indoor\bruceText07_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\07.3Indoor\showghostM07_3.cs" />
+     <Compile Include="Assets\Scripts\UnderScenes\07.3Indoor\zoeText07_3.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.1\showBghost08_1.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.2\showBghost08_2.cs" />
      <Compile Include="Assets\Scripts\UnderScenes\08.3\SwitchL08_3.cs" />

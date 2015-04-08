@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ZoeText07_1 : MonoBehaviour {
+public class zoeText07_3 : MonoBehaviour {
 
 	string dialogue = ">Sorry I’m late.";
 	
@@ -10,6 +10,7 @@ public class ZoeText07_1 : MonoBehaviour {
 		string textBuffer = dialogue;
 		if (dialogue == ">Sorry I’m late.") {
 			textBuffer +="\nI was stuck on the road.";
+			textBuffer +="\nHave you started the dinner?";
 			textBuffer +="\nWhere’s Mom?";
 		}
 		GetComponent<TextMesh>().text = textBuffer;
