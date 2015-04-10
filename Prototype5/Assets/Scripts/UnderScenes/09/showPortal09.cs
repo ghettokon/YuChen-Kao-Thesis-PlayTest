@@ -9,19 +9,6 @@ public class showPortal09 : MonoBehaviour {
 	public bool turnOff = true;
 
 	private float alpha = 0;
-	
-//	void OnMouseUpAsButton(){
-//		turnOff = !turnOff;
-//		if (turnOff) {
-//			text.GetComponent<MeshRenderer>().enabled = false;
-//			text.GetComponent<BoxCollider2D>().enabled = false;
-//			textBg.GetComponent<SpriteRenderer>().enabled = false;
-//		} else {
-//			text.GetComponent<MeshRenderer>().enabled = true;
-//			text.GetComponent<BoxCollider2D>().enabled = true;
-//			textBg.GetComponent<SpriteRenderer>().enabled = true;
-//		}
-//	}
 
 	private void Start(){
 		text.GetComponent<MeshRenderer>().enabled = true;
@@ -46,8 +33,6 @@ public class showPortal09 : MonoBehaviour {
 		//Debug.Log (text.GetComponent<TextMesh>().color.a);
 		text.GetComponent<TextMesh>().color = new Color (1,1,1,alpha);
 		textBg.GetComponent<SpriteRenderer>().color = new Color (1,1,1,alpha);
-
-		
 		
 		if (turnOff == false) {
 			if(alpha<1){

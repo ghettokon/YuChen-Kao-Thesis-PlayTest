@@ -26,7 +26,7 @@ public class switcherL02L : MonoBehaviour {
 			mirror.GetComponent<SpriteRenderer> ().sprite = mirror1;
 			mirror.GetComponent<BoxCollider2D>().enabled = false;
 			Gtext.GetComponent<MeshRenderer>().enabled = false;
-			GameObject.Find ("02L-mirror").GetComponent<MouseClickText> ().turnOff = true;
+			GameObject.Find ("02L-mirror").GetComponent<MouseClickTextFade> ().turnOff = true;
 		} else {
 			switcher.GetComponent<SpriteRenderer>().sprite = switcherOff;
 			lamplight.GetComponent<SpriteRenderer>().enabled = false;

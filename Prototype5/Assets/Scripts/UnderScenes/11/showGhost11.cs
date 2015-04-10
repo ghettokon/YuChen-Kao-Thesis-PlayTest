@@ -7,6 +7,7 @@ public class showGhost11 : MonoBehaviour {
 	public GameObject dark;
 	public GameObject text1;
 	public GameObject text2;
+	public GameObject textbg;
 	
 	public bool turnOn = false;
 	
@@ -17,7 +18,7 @@ public class showGhost11 : MonoBehaviour {
 			Mary.GetComponent<SpriteRenderer>().enabled = true;
 			Mary.GetComponent<BoxCollider2D>().enabled = true;
 			dark.GetComponent<SpriteRenderer>().enabled = true;
-			GameObject.Find ("11-MaryG").GetComponent<showPortal11> ().turnOn = false;
+			GameObject.Find ("11-MaryG").GetComponent<showPortal11> ().turnOff = true;
 		} else {
 			Mary.GetComponent<SpriteRenderer>().enabled = false;
 			Mary.GetComponent<BoxCollider2D>().enabled = false;
@@ -26,6 +27,7 @@ public class showGhost11 : MonoBehaviour {
 			text2.GetComponent<MeshRenderer>().enabled = false;
 			text1.GetComponent<BoxCollider2D>().enabled = false;
 			text2.GetComponent<BoxCollider2D>().enabled = false;
+			textbg.GetComponent<SpriteRenderer>().enabled = false;
 		}
 	}
 }
