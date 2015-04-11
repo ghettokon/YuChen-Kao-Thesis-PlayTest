@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/08.3/end08_3.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/05/showPhotoClue205.cs">
     <Files>
-      <File FileName="Assets/Scripts/UnderScenes/06/showJoelText306.cs" Line="35" Column="1" />
-      <File FileName="Assets/Scripts/UnderScenes/08.3/end08_3.cs" Line="31" Column="6" />
-      <File FileName="Assets/Scripts/UnderScenes/04/showRalphText104.cs" Line="45" Column="1" />
+      <File FileName="Assets/Scripts/UnderScenes/03.2/showMaryText03_2.cs" Line="45" Column="3" />
+      <File FileName="Assets/Scripts/UnderScenes/05/showPhotoClue205.cs" Line="34" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
