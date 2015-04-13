@@ -49,9 +49,10 @@
      <Compile Include="Assets\Scripts\Camera\CameraChangeScene.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraMoving.cs" />
-     <Compile Include="Assets\Scripts\Camera\ChangeCursor.cs" />
      <Compile Include="Assets\Scripts\Camera\CheckCloseUp.cs" />
      <Compile Include="Assets\Scripts\Camera\CheckSceneRange.cs" />
+     <Compile Include="Assets\Scripts\Camera\MainCursor.cs" />
+     <Compile Include="Assets\Scripts\Camera\quitGame.cs" />
      <Compile Include="Assets\Scripts\Camera\sceneControl.cs" />
      <Compile Include="Assets\Scripts\SortingLayer\ParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\SortingLayer\ParticleSortingLayer2.cs" />
