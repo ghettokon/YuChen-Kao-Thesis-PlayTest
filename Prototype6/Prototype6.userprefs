@@ -1,15 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UnderScenes/FadeEffects/MouseClickTextFade.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Camera/CameraChangeScene.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Camera/quitGame.cs" Line="14" Column="4" />
-      <File FileName="Assets/Scripts/Camera/MainCursor.cs" Line="34" Column="119" />
-      <File FileName="Assets/Scripts/UnderScenes/playAgain.cs" Line="6" Column="1" />
-      <File FileName="Assets/Scripts/Camera/exitGame.cs" Line="12" Column="3" />
-      <File FileName="Assets/Scripts/UnderScenes/FadeEffects/MouseClickTextFade.cs" Line="15" Column="3" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
