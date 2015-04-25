@@ -16,7 +16,7 @@ public class CheckSceneRange : MonoBehaviour {
 		if(transform.position.x>-746.0f && transform.position.x<-741.0f && transform.position.y>41.0f && transform.position.y<46.0f){
 			Vector3 pos = transform.position;
 			pos.x = Mathf.Clamp (pos.x, -744f, -743.5f);
-			pos.y = Mathf.Clamp (pos.y, 42f, 43f);
+			pos.y = Mathf.Clamp (pos.y, 42.2f, 43f);
 			transform.position = pos;
 		}
 
@@ -24,7 +24,7 @@ public class CheckSceneRange : MonoBehaviour {
 		if(transform.position.x>-746.0f && transform.position.x<-741.0f && transform.position.y>16.0f && transform.position.y<23.0f){
 			Vector3 pos = transform.position;
 			pos.x = Mathf.Clamp (pos.x, -744f, -743.5f);
-			pos.y = Mathf.Clamp (pos.y, 18f, 19f);
+			pos.y = Mathf.Clamp (pos.y, 18.2f, 19f);
 			transform.position = pos;
 		}
 
@@ -79,7 +79,7 @@ public class CheckSceneRange : MonoBehaviour {
 		//Scene09
 		if(transform.position.x>7.0f && transform.position.x<22.0f && transform.position.y>-500.0f && transform.position.y<-480.0f){
 			Vector3 pos = transform.position;
-			pos.x = Mathf.Clamp (pos.x, 12.0f, 18.0f);
+			pos.x = Mathf.Clamp (pos.x, 13f, 18.0f);
 			pos.y = Mathf.Clamp (pos.y, -491.0f, -486.0f);
 			transform.position = pos;
 		}
@@ -87,7 +87,7 @@ public class CheckSceneRange : MonoBehaviour {
 		//Scene04
 		if(transform.position.x>-395.0f && transform.position.x<-370.0f && transform.position.y>-97.0f && transform.position.y<-85.0f){
 			Vector3 pos = transform.position;
-			pos.x = Mathf.Clamp (pos.x, -390.5f, -376.0f);
+			pos.x = Mathf.Clamp (pos.x, -390.5f, -378.0f);
 			pos.y = Mathf.Clamp (pos.y, -95f, -91.5f);
 			transform.position = pos;
 		}
